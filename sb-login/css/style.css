@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family= Noto +Sans:wght@400;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #18181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #f59e0b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #18181b;
+}
+
+.card-login > h1{
+    color: #18181b;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background:  #f8bd56;
+    color: #18181b;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #18181b;
+    outline: none;
+}
+
+.textfield > label{
+    color: #18181b;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color:#18181b;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px ;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#f59e0b;
+    background: #18181b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #f59e0b #f8bd56;
+}
+
+.img-login{
+    width: 30vw;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+}
+

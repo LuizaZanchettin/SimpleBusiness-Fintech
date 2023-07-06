@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="navegacao">
+        <nav class="navbar navbar-expand-lg  bg-dark border-bottom border-bottom-dark" data-bs-theme="dark" style="text-align: center;">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: 2rem; font-weight: 600; padding: 0; color: rgb(245, 158, 11)";>SimpleBusiness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding: 1em; font-size: 1.2rem; ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Conta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Vendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Estoque</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Recebimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Comprovante</a>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-warning border-warning" type="submit" style="width: 70%; height: 10%; font-size: 1rem;">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        <h1 style="font-size: 2rem; margin-top: 2.5%; margin-left: 4%; color: #000;">Olá, Luiza Zanchettin</h1>
+        <p style="font-size:  1.3rem; font-weight: 600; color: #58585885; margin-left: 4%; line-height: 4%;">Perfil do usúario</p>
+        
+        <section class="saldo-card"  style="display: flex; justify-content: center;">
+            <div class="card" style="display: flex;  width: 48%; height: 20%; margin-left: 3%; margin-top: 2%; background-image: url(./imagem/blurry-gradient-haikei.svg); ">
+                <div class="card-body" >
+                <h3 style="font-size: 1.2rem;">Saldo em conta</h3>
+                <p style="font-size: 2.3rem; font-weight: 700; ">R$8.763,91</p>
+                <div class="btn-card-saldo">
+                    <a href="#" class="btn btn-saldo btn-hover" style="margin-top: 5%;" >Mais Informações</a>
+                </div>
+                </div>
+            </div>
+        </section>
+    
+    <section class="ganho-gasto" style="display: flex; justify-content: center; gap: 10%; margin-left: 3%; margin-top:2%; margin-bottom: 2%;"> 
+        <div class="card card-ganhos mb-3" style="width: 14%;">
+            <div class="card-body">
+                <h5 class="card-title">Ganhos</h5>
+                <p class="card-text" >R$3.487,23</p>
+            </div>
+        </div>
+
+        <div class="card card-gastos mb-3" style="width: 14%;">
+            <div class="card-body">
+                <h5 class="card-title" >Gastos</h5>
+                <p class="card-text">R$5.321,98</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="table-historico">
+        <h1 class="table-name">Histórico</h1>
+        <p class="info-table">Dados Atualizados</p>
+        <table class="table table-hover">
+            <tbody class="table-body" style="text-align: center; line-height: 20%;">
+                <tr>
+                    <td><img src="./imagem/icon netflix.png" alt=""></td>
+                    <td>Netflix</td>
+                    <td>29 Junho, 2023</td>
+                    <td  class="valortable" style="color: red; font-size: 1.6rem; font-weight: 700;">-R$ 59,80</td>
+                </tr>
+                <tr>
+                    <td><img src="./imagem/iocn pix.png" alt=""></td>
+                    <td>Pix recebido</td>
+                    <td>26 Junho,2023</td>
+                    <td class="valortable" style="color: green; font-size: 1.6rem; font-weight: 700;">+R$190,98</td>
+                </tr>
+                <tr>
+                    <td><img src="./imagem/icon-carrefour.png" alt=""></td>
+                    <td>Carrefour</td>
+                    <td>20 Junho,2023</td>
+                    <td class="valortable" style="color: red; font-size: 1.6rem; font-weight: 700;">-R$457,39</td>
+                </tr>
+                <tr>
+                    <td><img src="./imagem/fiap icon.jpg" alt=""></td>
+                    <td>Fiap</td>
+                    <td>04 Junho,2023</td>
+                    <td class="valortable" style="color: red; font-size: 1.6rem; font-weight: 700;">-R$690,00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button type="button" class="btn btn-outline-secondary" style="width: 70%; font-size: 1.4rem;">Ver Mais</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </main>
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

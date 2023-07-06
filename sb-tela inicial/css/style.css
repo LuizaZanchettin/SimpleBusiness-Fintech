@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --color-dark: #18181b;
+    --color-yellow: #f59e0b;
+    --color-bg-yellow-btn: rgba(245, 159, 11, 0.418);
+}
+
+
+.nav-item{
+	word-spacing: 16px;
+}
+
+.nav-item:hover{
+	font-weight: 800;
+}
+
+.navegacao button:hover{
+    background: var(--color-bg-yellow-btn);
+	color: #fff;
+}
+
+.btn-saldo {
+	border: 1px solid var(--color-dark);
+	color: black;
+	display: flex;
+	justify-content: flex-end;
+	border-radius: 7;
+	position: relative;
+}
+
+.btn-saldo:hover{
+	transition: 0.7ms;
+    border: 1px solid var(--color-dark);
+    border-radius: 7px;
+	background: var(--color-dark);
+	color: #fff;
+	position: relative;
+}
+
+.saldo-card{
+	position: relative;
+}
+
+.saldo-card p {
+	margin-top: 5%;
+	margin-left: 5%;
+	line-height: 80%;
+	position: relative;
+}
+
+.saldo-card h3{
+	margin-top: 2%;
+	margin-left: 7%;
+	position: relative;
+}
+
+.card-ganhos{
+	border: 1px solid var(--color-dark) ;
+	background: transparent;
+}
+
+.card-ganhos:hover{
+	background: rgba(0, 128, 0, 0.616);
+	color: #fff;
+	border: none;
+}
+
+.card-gastos{
+	border: 1px solid var(--color-dark);
+	background: transparent;
+}
+
+.card-gastos:hover{
+	background: rgba(255, 0, 0, 0.603);
+	color: #fff;
+	border: none;
+}
+
+.card-text{
+	font-size: 1.5rem; 
+	font-weight: 700;
+}
+
+.card-title{
+	font-size: 1.2rem;
+}
+
+@media(max-width:746px){
+	.card-text{
+		font-size: 1rem;
+	}
+
+	.card-title{
+		font-size: 0.8rem;
+	}
+}
+
+.table-historico{
+	width: 48%;
+	height: 40%;
+	border: 1px solid var(--color-yellow);
+	border-radius: 20px;
+	align-items: center;
+	margin-left: 28%;
+}
+
+.table-name{
+	font-size: 2rem;
+	font-weight: 600;
+	padding-top: 0.5em;
+	padding-left: 2em;
+}
+
+.info-table{
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.527);
+	padding-left: 4em;
+	line-height: 30%;
+}
+
+.table-body img{
+	width: 2vmax;
+}
+.table td{
+	background-color: transparent;
+	padding-top: 2%;
+	font-size: 1.2rem;
+}
+
+
